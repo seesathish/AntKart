@@ -1,5 +1,14 @@
 # AntKart
 
+![.NET 9](https://img.shields.io/badge/.NET-9.0-512BD4?logo=dotnet)
+![Microservices](https://img.shields.io/badge/architecture-microservices-8A2BE2)
+![MassTransit](https://img.shields.io/badge/MassTransit-SAGA-FF6B6B)
+![Keycloak](https://img.shields.io/badge/auth-Keycloak-2E8B57)
+![Elasticsearch](https://img.shields.io/badge/logs-ELK-005571)
+![Polly](https://img.shields.io/badge/resilience-Pollyv8-FF69B4)
+![Tests](https://img.shields.io/badge/tests-600%2B-28A745)
+[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE.txt)
+
 AntKart is a cloud-native e-commerce platform built as independently deployable .NET 9 microservices with Clean Architecture, DDD, CQRS, Event Bus (SAGA), API Gateway, Resilience, and full Observability.
 
 > **Before you run:** Payment processing requires Razorpay API keys. See **[RAZORPAY_SETUP.md](RAZORPAY_SETUP.md)** for how to get free sandbox credentials and where to set them.
