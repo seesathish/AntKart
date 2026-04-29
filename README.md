@@ -13,7 +13,20 @@ AntKart is a cloud-native e-commerce platform built as independently deployable 
 
 > **Before you run:** Payment processing requires Razorpay API keys. See **[RAZORPAY_SETUP.md](RAZORPAY_SETUP.md)** for how to get free sandbox credentials and where to set them.
 
----
+> ## Quick Start (SSH)
+
+> Clone using SSH (recommended for Windows & corporate networks):
+> ```bash
+> git clone git@github.com:seesathish/AntKart.git
+> If SSH on port 22 is blocked, configure SSH to use port 443:
+> # ~/.ssh/config
+> Host github.com
+>  HostName ssh.github.com
+>  User git
+>  Port 443
+> Verify
+> ssh -T git@github.com
+> ``
 
 ## Architecture Overview
 
