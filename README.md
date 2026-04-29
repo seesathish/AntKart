@@ -18,13 +18,14 @@ AntKart is a cloud-native e-commerce platform built as independently deployable 
 > Clone using SSH (recommended for Windows & corporate networks):
 > ```bash
 > git clone git@github.com:seesathish/AntKart.git
-> If SSH on port 22 is blocked, configure SSH to use port 443:
+> 
+> #If SSH on port 22 is blocked, configure SSH to use port 443:
 > # ~/.ssh/config
 > Host github.com
 >  HostName ssh.github.com
 >  User git
 >  Port 443
-> Verify
+> #Verify
 > ssh -T git@github.com
 > ``
 
